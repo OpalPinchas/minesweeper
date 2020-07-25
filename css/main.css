@@ -1,67 +1,52 @@
-
-body{
-    text-align: center;
-    margin: auto;
-    height: 600px;
-    width: 450px;
-
+body {
+  text-align: center;
+  margin: auto;
+  height: 600px;
+  width: 450px;
 }
-button{
-    cursor: pointer;
-
-
+button {
+  cursor: pointer;
 }
-.levels{
-  margin-top: 15px;
+.game-container { 
+  margin: auto;
+  height: 600px;
+  width: 450px; 
 }
-.game-container{
-    margin: auto;
-    height: 600px;
-    width: 450px;
-    
+table {
+  position: absolute;
+  height: 400px;
+  width: 400px;
 }
-table{
-    position: absolute;
-    height: 400px;
-    width: 400px;
+.board-container {
+  margin: 15px auto;
+  height: 400px;
+  width: 400px;
 }
-.board-container{
-
-    margin: 15px auto;
-    height: 400px;
-    width: 400px;
-
+.board {
+  border: solid black;
 }
-.board{
-    table-layout:fixed;
-    border: solid black;
+.cell {
+  font-weight: bold;
+  font-size: 12px;
+  border: solid black;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(230, 224, 224);
+  page-break-after: auto;
 }
-.cell{
-    
-
-    
-    /* font-size: 75%; */
-    border: solid black;
-    text-align: center;
-    height: 20px;
-    width: 20px;
-    background-color: rgb(230, 224, 224);
-    page-break-after: auto;
-    
+.cover {
+  background-color: rgb(189, 186, 186);
+  cursor: pointer;
 }
-.cover{
-    background-color: rgb(189, 186, 186);
-    cursor: pointer;
+.hints {
+  margin: 10px;
 }
-.hints{
-    margin: 10px;
-    height: 30px;
-}
-.safe-click{
-    width: 100px;
-    height: 50px;
+.safe-click {
+  width: 100px;
+  height: 50px;
 }
 
-.mark{
-    background: rgb(117, 221, 247);
+.mark {
+  background: rgb(160, 217, 231);
 }

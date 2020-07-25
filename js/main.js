@@ -54,6 +54,7 @@ function initGame(size = 8, mines = 12) {
   gLevel.MINES = mines;
 
   gIsFirstClick = true;
+  gIsHint = false;
   gMinesPos = [];
   gEmptyCells = [];
   gLivesCount = 3;
